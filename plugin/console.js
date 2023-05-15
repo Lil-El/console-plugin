@@ -14,6 +14,18 @@ class ConsolePlugin {
         //   assets.source = content;
         //   assets.size = content.length;
         // }
+
+        /**
+         * 或者使用如下修改assets内容：
+         *  compilation.assets[name] = {
+              source() {
+                return content;
+              },
+              size() {
+                return content.length;
+              }
+            }
+         */
       });
     });
   }

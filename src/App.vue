@@ -14,7 +14,7 @@ export default {
     HelloWorld,
   },
   mounted() {
-    console.log("MinoYa");
+    console.log("MinoYa!");
   },
 };
 </script>
